@@ -1,0 +1,38 @@
+
+
+/*mobile*/
+
+@media (max-width: 450px) {
+    body {
+        background-color:#F3EEEE;
+    }
+}
+/*tablet*/
+@media (min-width: 451px) and (max-width: 979px) {
+    body {
+        background-color: #89D4EA;
+    }
+}
+/*laptop*/
+@media (min-width: 980px) and (max-width: 1500px) {
+    body {
+        background-color: #89EABF
+    }
+}
+.box{
+    display:inline-block;
+    height:350px;
+    width:320px;
+    padding-top: 5px;;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+.text{
+    color: white;
+}
+body{
+padding-left:15%;
+padding-right: 15%;
+}
